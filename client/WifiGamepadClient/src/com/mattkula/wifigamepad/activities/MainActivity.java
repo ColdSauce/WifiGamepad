@@ -27,12 +27,12 @@ import java.util.ArrayList;
 
 public class MainActivity extends Activity {
 
-    EditText editIPAddress, editPort;
-    ListView controllerList;
+    private EditText editIPAddress, editPort;
+    private ListView controllerList;
 
-    Controller selectedController;
+    private Controller selectedController;
 
-    ControllerListAdapter adapter;
+    private ControllerListAdapter adapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
